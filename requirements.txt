@@ -1,0 +1,5 @@
+Django==1.10.8
+django-flatpages-tinymce==0.1.1
+django-tinymce==2.7.0
+django-extensions==2.0.7
+ipython

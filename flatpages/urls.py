@@ -17,6 +17,7 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^pages/', include('django.contrib.flatpages.urls')),
+    url(r'^help/', include('django.contrib.flatpages.urls')),
+    url(r'^tinymce/', include('tinymce.urls')),
     url(r'^admin/', admin.site.urls),
 ]
